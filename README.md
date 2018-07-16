@@ -23,7 +23,7 @@ Vamos percorrer estes um por um
 Simples:
 
 ```php
-$new_form = new FormBuilder();
+$new_form = new GerarForm();
 ```
 
 Abaixo são atributos utilizados todas as configurações padrão do formulário, que são as seguintes:
@@ -45,7 +45,7 @@ As explicações para cada uma das configurações estão abaixo
 Você também pode instanciar passando um URL, que se torna a ação do formulário
 
 ```php
-$new_form = new PhpFormBuilder('http://seuurlparaenviodoform.com');
+$new_form = new GerarForm('http://seuurlparaenviodoform.com');
 ```
 
 ### 2) Altere os atributos de formulário, se desejado
