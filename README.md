@@ -219,9 +219,9 @@ Configurações padrão e possíveis para entradas de campo (argumento 2):
 * Default is empty
 * This string of text will be added within a style attribute
 
-### 4) Output the form
+### 4) Gerar o FOrmulário
 
-One quick statement outputs the form as HTML:
+Uma instrução rápida mostra o formulário como HTML:
 
 ```php
 $new_form->build_form();
